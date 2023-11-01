@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100vh;
     width: 100vw;
     background-color: #242424;
@@ -11,5 +12,46 @@
     color: rgba(255,255,255,0.87);
 }
 .card{
-    color: #624cfe;
+    color: rgba(255,255,255,0.87);
+    padding: 20px;
+    border: 1px solid #624cfe;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px;
+    height: 500px;
+    width: 320px;
+    align-items: center;
+    background-color: #2e2e2e;
+    border-radius: 12px 0px 12px 0px;
 }
+.card h4{
+    background-color: #624cfe;
+    padding: 12px 24px;
+}
+.card:hover{
+    transform: skewY(-10deg);
+    transition: 1s;
+}
+
+.formInput{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255,0.87);
+    padding: 6px;
+    color: rgba(255,255,255,0.87);
+    outline: none;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.formBtn{
+    background-color: #624cfe;
+    border-radius: 6px;
+    padding: 8px 16px;
+    border: none;
+    color: aliceblue;
+}
+

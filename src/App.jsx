@@ -9,7 +9,6 @@ function App() {
     <div className={container}>
       <h1 className={title}>Carga de estudiantes</h1>
       <Form/>
-      <Card/>
     </div>
     </>
   )
